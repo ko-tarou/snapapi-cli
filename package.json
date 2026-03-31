@@ -1,0 +1,34 @@
+{
+  "name": "snapapi",
+  "version": "1.0.0",
+  "description": "Create instant REST APIs from JSON. No signup required.",
+  "bin": {
+    "snapapi": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mock-api",
+    "json",
+    "rest-api",
+    "api-testing",
+    "mock-server"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ko-tarou/snapapi-cli"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
