@@ -1,6 +1,6 @@
 {
   "name": "snapapi-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create instant REST APIs from JSON. No signup required.",
   "bin": {
     "snapapi": "dist/cli.js"
