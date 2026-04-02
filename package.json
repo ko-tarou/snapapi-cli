@@ -1,9 +1,9 @@
 {
-  "name": "snapapi",
+  "name": "snapapi-cli",
   "version": "1.0.0",
   "description": "Create instant REST APIs from JSON. No signup required.",
   "bin": {
-    "snapapi": "./dist/cli.js"
+    "snapapi": "dist/cli.js"
   },
   "files": [
     "dist"
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ko-tarou/snapapi-cli"
+    "url": "git+https://github.com/ko-tarou/snapapi-cli.git"
   },
   "engines": {
     "node": ">=18.0.0"

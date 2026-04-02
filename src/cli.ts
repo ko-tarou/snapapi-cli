@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as fs from "node:fs";
 import { createMockApi, formatResult } from "./api";
 import { parseGenerateArgs, generateJson } from "./generate";
